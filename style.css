@@ -1,0 +1,30 @@
+body {
+  font-family:  sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  color: #006eff;
+}
+
+header {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;}
+
+  a{
+    color: green;
+  }
+
+.green{
+  color: rgb(0, 128, 17);
+}
+
+header nav ul li{
+  
+  margin: 10px;
+}
