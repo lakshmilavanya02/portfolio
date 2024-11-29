@@ -13,12 +13,12 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
+        <li>Python</li>
+        <li>Java</li>
+        <li>C</li>
         <li>HTML</li>
         <li>CSS</li>
         <li>Java Script</li>
-        <li>React JS</li>
-        <li>Tailwind Css</li>
-        <li>Next JS</li>
       </ul>
     ),
   },
@@ -28,10 +28,10 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>
-          B.Tech - KKR & KSR Institute of Technology and Sciences (EEE), Guntur,
+          B.Tech - KKR & KSR Institute of Technology and Sciences (CSD), Guntur,
           A.P
         </li>
-        <li>Intermediate - Sri Gayatri Junior College, Guntur, A.P</li>
+        <li>Intermediate - Sri Chaitanya Junior College, Guntur, A.P</li>
         <li>Class X - Naveena High School, Guntur, A.P</li>
       </ul>
     ),
@@ -65,12 +65,10 @@ const About = () => {
           <div>
             <h2 className="text-4xl font-bold mb-4">About Me</h2>
             <p className="text-base lg:text-lg text-[#fff]">
-              Hello! I&apos;m Niranjan Raju, a passionate Front-End
-              developer.From my early age I was so much passionate on web. I
-              develop web applications, I also have experience working with
-              Reactjs and Next js. Able to do any web and programming related
-              task by handling difficulties smoothly in any given time. Have a
-              reasonable skill on Front-End development
+              Hello! I&apos;m Lakshmi Lavanya, a passionate web developer.From
+              my early age I was so much passionate on web. Able to do any web
+              and programming related task by handling difficulties smoothly in
+              any given time. Have a reasonable skill on Front-End development
             </p>
             <div className="flex flex-row justify-start mt-8 gap-5">
               <TabButton

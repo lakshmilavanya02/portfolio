@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import Link from "next/link";
-// import user from '../../../public/img/projects/'
 
 const Hero = () => {
   return (
@@ -20,29 +19,18 @@ const Hero = () => {
           <h1 className="text-white tex-4xl lg:text-6xl font-extrabold mb-4 sm:text-5xl ">
             <span>Hello, I&apos;m </span>
             <span className="text-transparent bg-clip-text bg-gradient-to-br from-purple-500 via-secondry-400 to-primary-500">
-              Niranjan Raju
+              Lakshmi Lavanya
             </span>{" "}
             <br />
             <TypeAnimation
-              sequence={[
-                // Same substring at the start will only be typed out once, initially
-                "Front End Developer",
-                5000, // wait 1s before replacing "Mice" with "Hamsters"
-                "Web Developer",
-                5000,
-                "UI/UX Designer",
-                5000,
-              ]}
+              sequence={["Web Developer", 5000]}
               wrapper="span"
               speed={1}
               style={{ fontSize: "0.9em", display: "inline-block" }}
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#777]  mb-6 lg:text-xl  text-base">
-            Innovative React developer crafting seamless user experiences with
-            creativity and precision.
-          </p>
+
           <div className="flex items-center gap-5 mt-4">
             <Link href="/img/resume.pdf" download="download">
               <button className="rounded-full bg-transparent hover:bg-slate-200 text-white hover:text-black border border-white  py-2 px-4 w-full sm:w-fit hover:font-bold">
@@ -52,12 +40,12 @@ const Hero = () => {
 
             <Link
               className="p-2 border border-white rounded-full hover:bg-sky-800"
-              href="https://www.linkedin.com/in/raju-niranjan/">
+              href="https://www.linkedin.com/in/lavanya2502">
               <LinkedInIcon className="text-4xl" />
             </Link>
             <Link
               className="p-2 border border-white rounded-full hover:text-black hover:bg-white"
-              href="https://github.com/RajuNiranjan">
+              href="https://github.com/lakshmilavanya02">
               <GitHubIcon className="text-4xl" />
             </Link>
           </div>
@@ -69,7 +57,7 @@ const Hero = () => {
           className="col-span-5 place-self-center mt-4 lg:mt-0">
           <div className="rounded-full h-[350px] w-[350px] relative overflow-hidden object-fill">
             <Image
-              src="/img/user.jpg"
+              src="/img/user.jpeg"
               alt=""
               width={400}
               height={400}
