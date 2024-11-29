@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section>
+    <section id="me">
       <div className="grid grid-cols-1 lg:grid-cols-12  ">
         <motion.div
           initial={{ opacity: 0 }}
